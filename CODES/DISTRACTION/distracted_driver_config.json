@@ -1,0 +1,28 @@
+{
+    "dataset_path": "/content/drive/MyDrive/SafeRoad/References & Links for Datasets",
+    "model_save_path": "/content/drive/MyDrive/SafeRoad/Code/Saved Models",
+    "img_dir": "/content/state-farm-distracted-driver-detection/imgs/train",
+    "test_img_dir": "/content/state-farm-distracted-driver-detection/imgs/test",
+    "batch_size": 32,
+    "img_size": 224,
+    "epochs_trained": 15,
+    "max_epochs": 20,
+    "patience": 4,
+    "num_workers": 2,
+    "device": "cuda",
+    "train_size": 20181,
+    "val_size": 2243,
+    "best_val_acc": 99.59875167186803,
+    "class_names": {
+        "0": "Normal Driving",
+        "1": "Texting - Right",
+        "2": "Talking Phone - Right",
+        "3": "Texting - Left",
+        "4": "Talking Phone - Left",
+        "5": "Operating Radio",
+        "6": "Drinking",
+        "7": "Reaching Behind",
+        "8": "Hair & Makeup",
+        "9": "Talking to Passenger"
+    }
+}
